@@ -864,19 +864,6 @@
             "rid": "win"
           }
         }
-      },
-      "Hospital.Models/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.24"
-        },
-        "compile": {
-          "bin/placeholder/Hospital.Models.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Hospital.Models.dll": {}
-        }
       }
     }
   },
@@ -2189,40 +2176,29 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-    },
-    "Hospital.Models/1.0.0": {
-      "type": "project",
-      "path": "../Hospital.Models/Hospital.Models.csproj",
-      "msbuildProject": "../Hospital.Models/Hospital.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Hospital.Models >= 1.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.24",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.24",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.24"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HP\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Aftahi Islam\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Asp.net Practices\\Aftahiislam007\\HospitalManagement\\Hospital\\Hospital.Repositories\\Hospital.Repositories.csproj",
+      "projectUniqueName": "E:\\ASP.NET Practices\\Aftahiislam007\\HospitalManagement\\Hospital\\Hospital.Repositories\\Hospital.Repositories.csproj",
       "projectName": "Hospital.Repositories",
-      "projectPath": "D:\\Asp.net Practices\\Aftahiislam007\\HospitalManagement\\Hospital\\Hospital.Repositories\\Hospital.Repositories.csproj",
-      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "D:\\Asp.net Practices\\Aftahiislam007\\HospitalManagement\\Hospital\\Hospital.Repositories\\obj\\",
+      "projectPath": "E:\\ASP.NET Practices\\Aftahiislam007\\HospitalManagement\\Hospital\\Hospital.Repositories\\Hospital.Repositories.csproj",
+      "packagesPath": "C:\\Users\\Aftahi Islam\\.nuget\\packages\\",
+      "outputPath": "E:\\ASP.NET Practices\\Aftahiislam007\\HospitalManagement\\Hospital\\Hospital.Repositories\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Aftahi Islam\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2235,11 +2211,7 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {
-            "D:\\Asp.net Practices\\Aftahiislam007\\HospitalManagement\\Hospital\\Hospital.Models\\Hospital.Models.csproj": {
-              "projectPath": "D:\\Asp.net Practices\\Aftahiislam007\\HospitalManagement\\Hospital\\Hospital.Models\\Hospital.Models.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -2283,7 +2255,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

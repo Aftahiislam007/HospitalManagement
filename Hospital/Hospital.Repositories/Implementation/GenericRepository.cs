@@ -1,4 +1,5 @@
 ﻿using Hospital.Repositories.Interfaces;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,54 +12,107 @@ namespace Hospital.Repositories.Implementation
     public class GenericRepository<T> : IDisposable, IGenericRepository<T> where T : class
     {
         private readonly ApplicationDbContext _context;
-        public void Add(T entity)
+        internal DbSet<T> dbSet;
+
+        public GenericRepository(ApplicationDbContext context)
         {
-            throw new NotImplementedException();
+            _context = context;
+            dbSet = _context.Set<T>();
         }
 
-        public Task<T> AddAsync(T entity)
+        public void Add(T entity)
         {
-            throw new NotImplementedException();
+            dbSet.Add(entity);
+        }
+
+        public async Task<T> AddAsync(T entity)
+        {
+            dbSet.Add(entity);
+            return entity;
         }
 
         public void Delete(T entity)
         {
-            throw new NotImplementedException();
+            if (_context.Entry(entity).State == EntityState.Detached)
+            {
+                dbSet.Attach(entity);
+            }
+            dbSet.Remove(entity);
         }
 
-        public Task<T> DeleteAsync(T entity)
+        public async Task<T> DeleteAsync(T entity)
         {
-            throw new NotImplementedException();
+            if (_context.Entry(entity).State == EntityState.Detached)
+            {
+                dbSet.Attach(entity);
+            }
+            dbSet.Remove(entity);
+            return entity;
         }
+
+        private bool disposed = false;
 
         public void Dispose()
         {
-            throw new NotImplementedException();
+            Dispose(true);
+            GC.SuppressFinalize(this);
+        }
+
+        public void Dispose(bool disposing)
+        {
+            if (!this.disposed)
+            {
+                if (disposed)
+                {
+                    _context.Dispose();
+                }
+            }
+            this.disposed = true;
         }
 
         public IEnumerable<T> GetAll(Expression<Func<T, bool>> filter = null, Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null, string includeProperties = "")
         {
-            throw new NotImplementedException();
+            IQueryable<T> query = dbSet;
+            if (filter != null)
+            {
+                query = query.Where(filter);
+            }
+            foreach (var includeProperty in includeProperties.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
+            {
+                query = query.Include(includeProperty);
+            }
+
+            if (orderBy != null)
+            {
+                return orderBy(query).ToList();
+            }
+            else
+            {
+                return query.ToList();
+            }
         }
 
         public T GetById(object id)
         {
-            throw new NotImplementedException();
+            return dbSet.Find(id);
         }
 
-        public Task<T> GetByIdAsync(object id)
+        public async Task<T> GetByIdAsync(object id)
         {
-            throw new NotImplementedException();
+            return await dbSet.FindAsync(id);
         }
 
         public void Update(T entity)
         {
-            throw new NotImplementedException();
+            dbSet.Attach(entity);
+            _context.Entry(entity).State = EntityState.Modified;
         }
 
-        public Task<T> UpdateAsync(T entity)
+        public async Task<T> UpdateAsync(T entity)
         {
-            throw new NotImplementedException();
+            dbSet.Attach(entity);
+            _context.Entry(entity).State = EntityState.Modified;
+            return entity;
         }
     }
 }
