@@ -6,15 +6,12 @@ using System.Threading.Tasks;
 
 namespace Hospital.Models
 {
-    public class Medicine
+    public class PatientReport
     {
         public int Id { get; set; }
-        public string Name { get; set; }
-        public string Description { get; set; }
-        public string Type { get; set; }
-        public string Cost { get; set; }
-        public ICollection<MedicineReport> MedicineReport { get; set; }
+        public string Diagnose { get; set; }
+        public ApplicationUser Doctor { get; set; }
+        public ApplicationUser Patient { get; set; }
         public ICollection<PrescribedMedicine> PrescribedMedicine { get; set; }
-
     }
 }
