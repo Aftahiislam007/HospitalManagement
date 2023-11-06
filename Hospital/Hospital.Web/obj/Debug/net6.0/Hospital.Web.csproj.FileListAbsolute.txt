@@ -285,3 +285,7 @@ D:\Asp.net Practices\Aftahiislam007\HospitalManagement\Hospital\Hospital.Web\bin
 D:\Asp.net Practices\Aftahiislam007\HospitalManagement\Hospital\Hospital.Web\bin\Debug\net6.0\runtimes\win-x64\native\e_sqlite3.dll
 D:\Asp.net Practices\Aftahiislam007\HospitalManagement\Hospital\Hospital.Web\bin\Debug\net6.0\runtimes\win-x86\native\e_sqlite3.dll
 D:\Asp.net Practices\Aftahiislam007\HospitalManagement\Hospital\Hospital.Web\obj\Debug\net6.0\Hospital.Web.MvcApplicationPartsAssemblyInfo.cs
+D:\Asp.net Practices\Aftahiislam007\HospitalManagement\Hospital\Hospital.Web\bin\Debug\net6.0\Hospital.Models.dll
+D:\Asp.net Practices\Aftahiislam007\HospitalManagement\Hospital\Hospital.Web\bin\Debug\net6.0\Hospital.Models.pdb
+D:\Asp.net Practices\Aftahiislam007\HospitalManagement\Hospital\Hospital.Web\bin\Debug\net6.0\Hospital.Utilities.dll
+D:\Asp.net Practices\Aftahiislam007\HospitalManagement\Hospital\Hospital.Web\bin\Debug\net6.0\Hospital.Utilities.pdb

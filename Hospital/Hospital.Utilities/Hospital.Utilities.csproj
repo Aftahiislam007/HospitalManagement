@@ -8,6 +8,12 @@
 
 	<ItemGroup>
 		<PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.24" />
+		<PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.23" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Hospital.Models\Hospital.Models.csproj" />
+	  <ProjectReference Include="..\Hospital.Repositories\Hospital.Repositories.csproj" />
 	</ItemGroup>
 
 </Project>

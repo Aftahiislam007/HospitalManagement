@@ -1,0 +1,11 @@
+D:\Asp.net Practices\Aftahiislam007\HospitalManagement\Hospital\Hospital.Services\bin\Debug\net6.0\Hospital.Services.deps.json
+D:\Asp.net Practices\Aftahiislam007\HospitalManagement\Hospital\Hospital.Services\bin\Debug\net6.0\Hospital.Services.dll
+D:\Asp.net Practices\Aftahiislam007\HospitalManagement\Hospital\Hospital.Services\bin\Debug\net6.0\Hospital.Services.pdb
+D:\Asp.net Practices\Aftahiislam007\HospitalManagement\Hospital\Hospital.Services\obj\Debug\net6.0\Hospital.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Asp.net Practices\Aftahiislam007\HospitalManagement\Hospital\Hospital.Services\obj\Debug\net6.0\Hospital.Services.AssemblyInfoInputs.cache
+D:\Asp.net Practices\Aftahiislam007\HospitalManagement\Hospital\Hospital.Services\obj\Debug\net6.0\Hospital.Services.AssemblyInfo.cs
+D:\Asp.net Practices\Aftahiislam007\HospitalManagement\Hospital\Hospital.Services\obj\Debug\net6.0\Hospital.Services.csproj.CoreCompileInputs.cache
+D:\Asp.net Practices\Aftahiislam007\HospitalManagement\Hospital\Hospital.Services\obj\Debug\net6.0\Hospital.Services.dll
+D:\Asp.net Practices\Aftahiislam007\HospitalManagement\Hospital\Hospital.Services\obj\Debug\net6.0\refint\Hospital.Services.dll
+D:\Asp.net Practices\Aftahiislam007\HospitalManagement\Hospital\Hospital.Services\obj\Debug\net6.0\Hospital.Services.pdb
+D:\Asp.net Practices\Aftahiislam007\HospitalManagement\Hospital\Hospital.Services\obj\Debug\net6.0\ref\Hospital.Services.dll

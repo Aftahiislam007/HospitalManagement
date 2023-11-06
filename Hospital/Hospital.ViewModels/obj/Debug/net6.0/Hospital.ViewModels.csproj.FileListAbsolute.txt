@@ -1,0 +1,11 @@
+D:\Asp.net Practices\Aftahiislam007\HospitalManagement\Hospital\Hospital.ViewModels\bin\Debug\net6.0\Hospital.ViewModels.deps.json
+D:\Asp.net Practices\Aftahiislam007\HospitalManagement\Hospital\Hospital.ViewModels\bin\Debug\net6.0\Hospital.ViewModels.dll
+D:\Asp.net Practices\Aftahiislam007\HospitalManagement\Hospital\Hospital.ViewModels\bin\Debug\net6.0\Hospital.ViewModels.pdb
+D:\Asp.net Practices\Aftahiislam007\HospitalManagement\Hospital\Hospital.ViewModels\obj\Debug\net6.0\Hospital.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+D:\Asp.net Practices\Aftahiislam007\HospitalManagement\Hospital\Hospital.ViewModels\obj\Debug\net6.0\Hospital.ViewModels.AssemblyInfoInputs.cache
+D:\Asp.net Practices\Aftahiislam007\HospitalManagement\Hospital\Hospital.ViewModels\obj\Debug\net6.0\Hospital.ViewModels.AssemblyInfo.cs
+D:\Asp.net Practices\Aftahiislam007\HospitalManagement\Hospital\Hospital.ViewModels\obj\Debug\net6.0\Hospital.ViewModels.csproj.CoreCompileInputs.cache
+D:\Asp.net Practices\Aftahiislam007\HospitalManagement\Hospital\Hospital.ViewModels\obj\Debug\net6.0\Hospital.ViewModels.dll
+D:\Asp.net Practices\Aftahiislam007\HospitalManagement\Hospital\Hospital.ViewModels\obj\Debug\net6.0\refint\Hospital.ViewModels.dll
+D:\Asp.net Practices\Aftahiislam007\HospitalManagement\Hospital\Hospital.ViewModels\obj\Debug\net6.0\Hospital.ViewModels.pdb
+D:\Asp.net Practices\Aftahiislam007\HospitalManagement\Hospital\Hospital.ViewModels\obj\Debug\net6.0\ref\Hospital.ViewModels.dll

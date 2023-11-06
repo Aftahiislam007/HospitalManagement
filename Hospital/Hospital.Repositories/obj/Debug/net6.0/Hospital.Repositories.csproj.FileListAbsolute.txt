@@ -12,3 +12,6 @@ D:\Asp.net Practices\Aftahiislam007\HospitalManagement\Hospital\Hospital.Reposit
 D:\Asp.net Practices\Aftahiislam007\HospitalManagement\Hospital\Hospital.Repositories\obj\Debug\net6.0\Hospital.Repositories.pdb
 D:\Asp.net Practices\Aftahiislam007\HospitalManagement\Hospital\Hospital.Repositories\obj\Debug\net6.0\Hospital.Repositories.genruntimeconfig.cache
 D:\Asp.net Practices\Aftahiislam007\HospitalManagement\Hospital\Hospital.Repositories\obj\Debug\net6.0\ref\Hospital.Repositories.dll
+D:\Asp.net Practices\Aftahiislam007\HospitalManagement\Hospital\Hospital.Repositories\bin\Debug\net6.0\Hospital.Models.dll
+D:\Asp.net Practices\Aftahiislam007\HospitalManagement\Hospital\Hospital.Repositories\bin\Debug\net6.0\Hospital.Models.pdb
+D:\Asp.net Practices\Aftahiislam007\HospitalManagement\Hospital\Hospital.Repositories\obj\Debug\net6.0\Hospital.Repositories.csproj.CopyComplete

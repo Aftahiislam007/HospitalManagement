@@ -1,0 +1,17 @@
+D:\Asp.net Practices\Aftahiislam007\HospitalManagement\Hospital\Hospital.Utilities\bin\Debug\net6.0\Hospital.Utilities.deps.json
+D:\Asp.net Practices\Aftahiislam007\HospitalManagement\Hospital\Hospital.Utilities\bin\Debug\net6.0\Hospital.Utilities.dll
+D:\Asp.net Practices\Aftahiislam007\HospitalManagement\Hospital\Hospital.Utilities\bin\Debug\net6.0\Hospital.Utilities.pdb
+D:\Asp.net Practices\Aftahiislam007\HospitalManagement\Hospital\Hospital.Utilities\bin\Debug\net6.0\Hospital.Models.dll
+D:\Asp.net Practices\Aftahiislam007\HospitalManagement\Hospital\Hospital.Utilities\bin\Debug\net6.0\Hospital.Repositories.dll
+D:\Asp.net Practices\Aftahiislam007\HospitalManagement\Hospital\Hospital.Utilities\bin\Debug\net6.0\Hospital.Models.pdb
+D:\Asp.net Practices\Aftahiislam007\HospitalManagement\Hospital\Hospital.Utilities\bin\Debug\net6.0\Hospital.Repositories.pdb
+D:\Asp.net Practices\Aftahiislam007\HospitalManagement\Hospital\Hospital.Utilities\obj\Debug\net6.0\Hospital.Utilities.csproj.AssemblyReference.cache
+D:\Asp.net Practices\Aftahiislam007\HospitalManagement\Hospital\Hospital.Utilities\obj\Debug\net6.0\Hospital.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+D:\Asp.net Practices\Aftahiislam007\HospitalManagement\Hospital\Hospital.Utilities\obj\Debug\net6.0\Hospital.Utilities.AssemblyInfoInputs.cache
+D:\Asp.net Practices\Aftahiislam007\HospitalManagement\Hospital\Hospital.Utilities\obj\Debug\net6.0\Hospital.Utilities.AssemblyInfo.cs
+D:\Asp.net Practices\Aftahiislam007\HospitalManagement\Hospital\Hospital.Utilities\obj\Debug\net6.0\Hospital.Utilities.csproj.CoreCompileInputs.cache
+D:\Asp.net Practices\Aftahiislam007\HospitalManagement\Hospital\Hospital.Utilities\obj\Debug\net6.0\Hospital.Utilities.csproj.CopyComplete
+D:\Asp.net Practices\Aftahiislam007\HospitalManagement\Hospital\Hospital.Utilities\obj\Debug\net6.0\Hospital.Utilities.dll
+D:\Asp.net Practices\Aftahiislam007\HospitalManagement\Hospital\Hospital.Utilities\obj\Debug\net6.0\refint\Hospital.Utilities.dll
+D:\Asp.net Practices\Aftahiislam007\HospitalManagement\Hospital\Hospital.Utilities\obj\Debug\net6.0\Hospital.Utilities.pdb
+D:\Asp.net Practices\Aftahiislam007\HospitalManagement\Hospital\Hospital.Utilities\obj\Debug\net6.0\ref\Hospital.Utilities.dll
