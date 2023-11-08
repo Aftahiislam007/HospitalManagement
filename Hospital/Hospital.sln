@@ -3,17 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hospital.Web", "Hospital.Web\Hospital.Web.csproj", "{D54539E3-CFCB-4571-B34E-5574466F7CEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hospital.Web", "Hospital.Web\Hospital.Web.csproj", "{D54539E3-CFCB-4571-B34E-5574466F7CEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hospital.Models", "Hospital.Models\Hospital.Models.csproj", "{18BF4D6B-5FEA-4DCD-BF46-F97C239505A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hospital.Models", "Hospital.Models\Hospital.Models.csproj", "{18BF4D6B-5FEA-4DCD-BF46-F97C239505A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hospital.ViewModels", "Hospital.ViewModels\Hospital.ViewModels.csproj", "{BFF62433-FD3E-4987-8376-7594D6341DE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hospital.Repositories", "Hospital.Repositories\Hospital.Repositories.csproj", "{6245D5CF-062C-4232-BF38-23BD68097DE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hospital.Repositories", "Hospital.Repositories\Hospital.Repositories.csproj", "{6245D5CF-062C-4232-BF38-23BD68097DE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hospital.Utilities", "Hospital.Utilities\Hospital.Utilities.csproj", "{558A5A0A-D35D-4B07-9E47-D7A015D7DAAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hospital.Services", "Hospital.Services\Hospital.Services.csproj", "{7C524931-244F-42E5-9134-B2738993C965}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hospital.Utilities", "Hospital.Utilities\Hospital.Utilities.csproj", "{558A5A0A-D35D-4B07-9E47-D7A015D7DAAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hospital.ViewModels", "Hospital.ViewModels\Hospital.ViewModels.csproj", "{1CFAF988-2E30-4E06-90B1-638FDF651DF4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,22 +27,18 @@ Global
 		{18BF4D6B-5FEA-4DCD-BF46-F97C239505A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18BF4D6B-5FEA-4DCD-BF46-F97C239505A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18BF4D6B-5FEA-4DCD-BF46-F97C239505A2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BFF62433-FD3E-4987-8376-7594D6341DE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BFF62433-FD3E-4987-8376-7594D6341DE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BFF62433-FD3E-4987-8376-7594D6341DE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BFF62433-FD3E-4987-8376-7594D6341DE7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6245D5CF-062C-4232-BF38-23BD68097DE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6245D5CF-062C-4232-BF38-23BD68097DE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6245D5CF-062C-4232-BF38-23BD68097DE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6245D5CF-062C-4232-BF38-23BD68097DE5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7C524931-244F-42E5-9134-B2738993C965}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7C524931-244F-42E5-9134-B2738993C965}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7C524931-244F-42E5-9134-B2738993C965}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7C524931-244F-42E5-9134-B2738993C965}.Release|Any CPU.Build.0 = Release|Any CPU
 		{558A5A0A-D35D-4B07-9E47-D7A015D7DAAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{558A5A0A-D35D-4B07-9E47-D7A015D7DAAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{558A5A0A-D35D-4B07-9E47-D7A015D7DAAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{558A5A0A-D35D-4B07-9E47-D7A015D7DAAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CFAF988-2E30-4E06-90B1-638FDF651DF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CFAF988-2E30-4E06-90B1-638FDF651DF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CFAF988-2E30-4E06-90B1-638FDF651DF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CFAF988-2E30-4E06-90B1-638FDF651DF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
